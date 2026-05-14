@@ -1,26 +1,28 @@
 ````md
-# 🚀 Cinema Business Intelligence
+# 🚀 Cinema Business Intelligence and Reservation System
 
 <p align="center">
-  <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
-  </a>
+    <a href="https://laravel.com" target="_blank"> 
+        <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"> 
+    </a> 
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/yourusername/your-repo" alt="License">
-  <img src="https://img.shields.io/github/stars/yourusername/your-repo" alt="Stars">
-  <img src="https://img.shields.io/github/issues/yourusername/your-repo" alt="Issues">
-  <img src="https://img.shields.io/github/forks/yourusername/your-repo" alt="Forks">
+    <img src="https://img.shields.io/github/license/jay26072/Cinema-Business-Intelligence-and-Reservation-System" alt="License"> 
+    <img src="https://img.shields.io/github/stars/jay26072/Cinema-Business-Intelligence-and-Reservation-System" alt="Stars"> 
+    <img src="https://img.shields.io/github/issues/jay26072/Cinema-Business-Intelligence-and-Reservation-System" alt="Issues"> 
+    <img src="https://img.shields.io/github/forks/jay26072/Cinema-Business-Intelligence-and-Reservation-System" alt="Forks"> 
 </p>
 
----
+<p align="center"> 
+    <a href="https://github.com/jay26072/Cinema-Business-Intelligence-and-Reservation-System"> 
+        <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub Repo"> 
+    </a> 
+</p>
 
-# 📖 About The Project
+# 📖 About The Project 
 
-**Cinema Business Intelligence** is an advanced cinema management and analytics platform developed using the Laravel Framework.
-
-The system is designed to automate cinema operations, improve customer experience, enhance security, and provide intelligent business insights for theatre owners and administrators.
+**Cinema Business Intelligence and Reservation System** is an advanced cinema management and analytics platform developed using the Laravel Framework. The system automates cinema operations, enhances customer experience, provides secure online ticket booking, and delivers powerful business intelligence analytics for theater owners and administrators.
 
 The project combines:
 
