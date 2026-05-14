@@ -489,7 +489,7 @@ This project is licensed under the **MIT License**.
 
 # 👨‍💻 Author
 
-## Patel Jay Hiteshbhai
+## Jay Patel
 
 * MCA Final Year Student
 * Cinema Business Intelligence Developer
