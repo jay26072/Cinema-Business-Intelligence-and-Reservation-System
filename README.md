@@ -1,18 +1,18 @@
 ````md
 # 🚀 Cinema Business Intelligence and Reservation System
 
-<p align="center">
+<p align="center"> 
     <a href="https://laravel.com" target="_blank"> 
         <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"> 
-    </a> 
-</p>
+    </a>
+</p> 
 
-<p align="center">
+<p align="center"> 
     <img src="https://img.shields.io/github/license/jay26072/Cinema-Business-Intelligence-and-Reservation-System" alt="License"> 
     <img src="https://img.shields.io/github/stars/jay26072/Cinema-Business-Intelligence-and-Reservation-System" alt="Stars"> 
     <img src="https://img.shields.io/github/issues/jay26072/Cinema-Business-Intelligence-and-Reservation-System" alt="Issues"> 
     <img src="https://img.shields.io/github/forks/jay26072/Cinema-Business-Intelligence-and-Reservation-System" alt="Forks"> 
-</p>
+</p> 
 
 <p align="center"> 
     <a href="https://github.com/jay26072/Cinema-Business-Intelligence-and-Reservation-System"> 
