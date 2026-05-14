@@ -487,18 +487,13 @@ This project is licensed under the **MIT License**.
 
 ---
 
-# 👨‍💻 Authors
+# 👨‍💻 Author
 
 ## Patel Jay Hiteshbhai
 
 * MCA Final Year Student
 * Cinema Business Intelligence Developer
-
-## Patel Ankit Nareshbhai
-
-* Full Stack Laravel Developer
-
----
+* Internship Project
 
 # 🙏 Acknowledgements
 
