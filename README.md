@@ -1,4 +1,3 @@
-````md
 # 🚀 Cinema Business Intelligence and Reservation System
 
 <p align="center"> 
@@ -517,4 +516,3 @@ Special Thanks To:
 <p align="center">
   Made with ❤️ using Laravel Framework
 </p>
-```
