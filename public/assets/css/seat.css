@@ -1,0 +1,21 @@
+.single-seat {
+    margin: 2px !important;
+}
+
+.single-seat img {
+    width: 50px;
+}
+
+.seat-line {
+    margin-bottom: 6px;
+}
+
+.seat--area {
+    display: flex;
+    align-items: center;
+}
+
+.single-seat { margin:2px; cursor:pointer; }
+.seat-booked { pointer-events:none; opacity:0.4; }
+.selected { border:2px solid #28a745; }
+

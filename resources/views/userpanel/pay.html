@@ -1,0 +1,122 @@
+<div class="checkout-widget checkout-card mb-0">
+                        <h5 class="title">Payment Option</h5>
+                        <!-- PAYMENT OPTIONS -->
+                        <ul class="payment-option">
+
+                            <li data-type="upi">
+                                <a href="#">
+                                    <img src="{{ asset('assets/images/payment/icons8-bhim-upi-100.png') }}">
+                                    <span>UPI</span>
+                                </a>
+                            </li>
+
+                            <li class="active" data-type="card">
+                                <a href="#">
+                                    <img src="{{ asset('assets/images/payment/card1.png') }}">
+                                    <span>(Credit / Debit Card)</span>
+                                </a>
+                            </li>
+
+                            <li data-type="netbanking">
+                                <a href="#">
+                                    <img src="{{ asset('assets/images/payment/bank3.png') }}">
+                                    <span>Net Banking</span>
+                                </a>
+                            </li>
+
+                            <li data-type="qr">
+                                <a href="#">
+                                    <img src="{{ asset('assets/images/payment/qr_1.png') }}">
+                                    <span>QR Code</span>
+                                </a>
+                            </li>
+                        </ul>
+
+
+                        <!-- ================= CARD FORM ================= -->
+                        <form id="card-form" class="payment-form">
+                            <input type="hidden" name="payment_method" value="card">
+                            <div class="form-group w-100">
+                                <label>Card Number</label>
+                                <input type="text" name="card_number" placeholder="1234 5678 9012 3456" required>
+                            </div>
+                            <div class="form-group w-100">
+                                <label>Name on Card</label>
+                                <input type="text" name="card_name" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Expiry</label>
+                                <input type="text" name="expiry" placeholder="MM/YY" required>
+                            </div>
+                            <div class="form-group">
+                                <label>CVV</label>
+                                <input type="text" name="cvv" placeholder="123" required>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" onclick="makePayment('card')" class="custom-button">
+                                    Pay ₹ {{ number_format($finalAmount, 2) }}
+                                </button>
+                            </div>
+                        </form>
+                        <!-- ================= UPI FORM ================= -->
+                        <form id="upi-form" class="payment-form d-none">
+
+                            <input type="hidden" name="payment_method" value="upi">
+
+                            <div class="form-group">
+                                <label>UPI ID</label>
+                                <input type="text" name="upi_id" placeholder="example@upi" required>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="button" onclick="makePayment('upi')" class="custom-button">
+                                    Pay via UPI
+                                </button>
+                            </div>
+                        </form>
+                        <!-- ================= NET BANKING FORM ================= -->
+                        <form id="netbanking-form" class="payment-form d-none">
+                            <input type="hidden" name="payment_method" value="netbanking">
+                            <div class="form-group">
+                                <label>Select Bank</label>
+                                <select name="bank" style="background-color: #032055;" required>
+                                    <option value="">Select Bank</option>
+                                    <option value="SBI">State Bank of India</option>
+                                    <option value="HDFC">HDFC Bank</option>
+                                    <option value="ICICI">ICICI Bank</option>
+                                    <option value="AXIS">Axis Bank</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="button" onclick="makePayment('netbanking')" class="custom-button">
+                                    Pay via Net Banking
+                                </button>
+                            </div>
+                        </form>
+                        <!-- ================= QR FORM ================= -->
+                        <form id="qr-form" class="payment-form d-none">
+
+                            <div class="form-group text-center">
+                                <label>Scan QR to Pay</label>
+
+                                <!-- Static QR Image -->
+                                <img src="{{ asset('assets/images/payment/fake-qr.png') }}" 
+                                    alt="QR Code" 
+                                    style="width:200px; background:white; padding:10px; border-radius:10px;">
+                            </div>
+
+                            <div class="form-group text-center">
+                                <p style="color:#fff;">
+                                    Amount: ₹ {{ number_format($finalAmount, 2) }}
+                                </p>
+                            </div>
+
+                            <div class="form-group text-center">
+                                <button type="button" onclick="makePayment('qr')" class="custom-button">
+                                    I Have Paid
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
